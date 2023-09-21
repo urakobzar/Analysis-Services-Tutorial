@@ -27,6 +27,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>International Transport 1.cube</Name>
+      <FullPath>International Transport 1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>International Transport 1.partitions</Name>
+          <FullPath>International Transport 1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>International Transport 2.cube</Name>
+      <FullPath>International Transport 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>International Transport 2.partitions</Name>
+          <FullPath>International Transport 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -44,6 +64,14 @@
     <ProjectItem>
       <Name>Пассажиры.dim</Name>
       <FullPath>Пассажиры.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Пункты.dim</Name>
+      <FullPath>Пункты.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Маршруты.dim</Name>
+      <FullPath>Маршруты.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
