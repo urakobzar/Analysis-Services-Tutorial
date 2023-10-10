@@ -181,7 +181,7 @@
   <Attributes>
     <Attribute dwd:design-time-name="5737a5b8-3365-4c32-a33c-ab4a4dac339e">
       <ID>Id</ID>
-      <Name>Id</Name>
+      <Name>Номер маршрута</Name>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="dcac3f4d-d5cf-41e7-8819-c56b031e4197">
@@ -193,6 +193,13 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="16dd67c6-e404-4e37-ac3f-a4534df0bca3">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2462dfd0-5b5d-48df-895f-44013a03970a">
+          <TableID>dbo_routes</TableID>
+          <ColumnID>Номер_x0020_маршрута</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="3cc95966-df3e-4b29-b8ec-456727602d50">
           <AttributeID>Carrier Id</AttributeID>
@@ -398,9 +405,9 @@
           <Name>Название транспорта</Name>
           <SourceAttributeID>Id 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="5260661f-b983-4e4a-bf71-e450c9482fb9">
-          <ID>Id</ID>
-          <Name>Id</Name>
+        <Level dwd:design-time-name="241a6d04-e04d-423d-b07c-7bd4c356a8dc">
+          <ID>Номер маршрута</ID>
+          <Name>Номер маршрута</Name>
           <SourceAttributeID>Id</SourceAttributeID>
         </Level>
       </Levels>
