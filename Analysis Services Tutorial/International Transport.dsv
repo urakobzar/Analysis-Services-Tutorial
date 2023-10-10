@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="04e1c0f5-2e57-4982-abcb-c5cd1c8f8382" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f03b3f5a-4279-4fed-989e-a23eb9f4c71f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>International Transport</ID>
   <Name>International Transport</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -352,6 +352,13 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="Полное_x0020_имя" msdata:ReadOnly="true" msprop:DbColumnName="Полное имя" msprop:IsLogical="True" msprop:ComputedColumnExpression="name + ' ' + middlename + ' ' + surname" msprop:design-time-name="6b65fceb-5f84-482f-b532-dd615fa8049e" msprop:Description="">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="77" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -419,6 +426,7 @@
                   <xs:element name="datetime_arrival" msprop:FriendlyName="datetime_arrival" msprop:DbColumnName="datetime_arrival" msprop:design-time-name="0134adfb-af47-4bad-99e5-65bba4066723" type="xs:dateTime" minOccurs="0" />
                   <xs:element name="transport_id" msprop:FriendlyName="transport_id" msprop:DbColumnName="transport_id" msprop:design-time-name="4e766601-d702-4fee-9b82-7d5faa4ab752" type="xs:int" minOccurs="0" />
                   <xs:element name="passengers_amount" msprop:FriendlyName="passengers_amount" msprop:DbColumnName="passengers_amount" msprop:design-time-name="35501ab7-e2f9-4724-a384-31e90128151c" type="xs:unsignedByte" />
+                  <xs:element name="Номер_x0020_маршрута" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="e55fbcc6-556d-4520-8363-bc9c12033661" msprop:IsLogical="True" msprop:DbColumnName="Номер маршрута" msprop:ComputedColumnExpression="id + 123654" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -449,7 +457,7 @@
                   </xs:element>
                   <xs:element name="carrier_id" msprop:FriendlyName="carrier_id" msprop:DbColumnName="carrier_id" msprop:design-time-name="77cf3b4f-e1d8-42be-b522-513855370704" type="xs:int" minOccurs="0" />
                   <xs:element name="build_year" msprop:FriendlyName="build_year" msprop:DbColumnName="build_year" msprop:design-time-name="eae78102-eef5-4c58-94fc-d74eca8fec50" type="xs:dateTime" />
-                  <xs:element name="Полное_x0020_название" msdata:ReadOnly="true" msprop:Description="" msprop:design-time-name="9c2e35ed-cc56-42f0-9992-542c146b51cb" msprop:IsLogical="True" msprop:DbColumnName="Полное название" msprop:ComputedColumnExpression="company + ' ' + model">
+                  <xs:element name="Полное_x0020_название" msdata:ReadOnly="true" msprop:DbColumnName="Полное название" msprop:IsLogical="True" msprop:design-time-name="9c2e35ed-cc56-42f0-9992-542c146b51cb" msprop:Description="" msprop:ComputedColumnExpression="company + ' ' + model">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="201" />
@@ -493,25 +501,25 @@
           <xs:selector xpath=".//dbo_transports" />
           <xs:field xpath="carrier_id" />
         </xs:keyref>
-        <xs:keyref name="FK__routes__point_id__02FC7413" refer="dbo_points_Constraint1">
+        <xs:keyref name="FK__routes__transpor__03F0984C" refer="dbo_transports_Constraint1">
           <xs:selector xpath=".//dbo_routes" />
-          <xs:field xpath="point_id_to" />
+          <xs:field xpath="transport_id" />
         </xs:keyref>
         <xs:keyref name="FK__routes__point_id__02084FDA" refer="dbo_points_Constraint1">
           <xs:selector xpath=".//dbo_routes" />
           <xs:field xpath="point_id_from" />
         </xs:keyref>
-        <xs:keyref name="FK__routes__transpor__03F0984C" refer="dbo_transports_Constraint1">
+        <xs:keyref name="FK__routes__point_id__02FC7413" refer="dbo_points_Constraint1">
           <xs:selector xpath=".//dbo_routes" />
-          <xs:field xpath="transport_id" />
-        </xs:keyref>
-        <xs:keyref name="FK__registrat__passe__06CD04F7" refer="dbo_passengers_Constraint1">
-          <xs:selector xpath=".//dbo_registration_list" />
-          <xs:field xpath="passenger_id" />
+          <xs:field xpath="point_id_to" />
         </xs:keyref>
         <xs:keyref name="FK__registrat__route__07C12930" refer="dbo_routes_Constraint1">
           <xs:selector xpath=".//dbo_registration_list" />
           <xs:field xpath="route_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__registrat__passe__06CD04F7" refer="dbo_passengers_Constraint1">
+          <xs:selector xpath=".//dbo_registration_list" />
+          <xs:field xpath="passenger_id" />
         </xs:keyref>
         <xs:keyref name="FK__emergenci__route__0A9D95DB" refer="dbo_routes_Constraint1">
           <xs:selector xpath=".//dbo_emergencies" />

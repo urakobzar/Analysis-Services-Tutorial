@@ -157,6 +157,9 @@
         <Attribute dwd:design-time-name="52a15d5c-ad6a-460e-b7ed-b04717956010">
           <AttributeID>Surname</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="f0beafe2-2741-49f8-8926-5b71a78eeb86">
+          <AttributeID>Sex</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="f4e7f021-7fb9-4622-b881-ec169352ae51">
@@ -213,7 +216,7 @@
       <Measures>
         <Measure dwd:design-time-name="4c552c2a-2f11-443d-ba74-ebbbfe03a7c9">
           <ID>Ticket Cost</ID>
-          <Name>Ticket Cost</Name>
+          <Name>Стоимость билета</Name>
           <Source dwd:design-time-name="145f5bf7-0c1e-4d4c-9b46-450c9253cf93">
             <DataType>Integer</DataType>
             <Source xsi:type="ColumnBinding" dwd:design-time-name="904611a2-c3f7-4724-82b1-b3656f68feff">
