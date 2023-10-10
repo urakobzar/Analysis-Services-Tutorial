@@ -10,7 +10,7 @@
         <dds xmlns="">
           <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4953" scrolltop="-414" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="36274" y="15822" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
-              <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
             <mouseicon>
               <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -190,6 +190,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="2b9ec50f-2e94-47e4-8479-a3e12d5972b2">
           <AttributeID>Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce53163a-61ed-4cf4-aab0-c25f89c6ce49">
+          <AttributeID>Carrier Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -382,6 +385,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="b85a1b38-df73-4ea7-8144-03e38114a92c">
