@@ -201,35 +201,12 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="9b35595b-3e53-4f4e-ac01-db06568b0579">
-          <AttributeID>Carrier Id</AttributeID>
-          <Name>Carrier Id</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="b28085c5-804d-4d8c-8129-1102b22825b4">
           <AttributeID>Id 1</AttributeID>
           <Name>Название транспорта</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="dcd959cf-fb15-4bd4-9c5e-cc3b3d56bf74">
-          <AttributeID>Transport Id</AttributeID>
-          <Name>Transport Id</Name>
-        </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="36b17480-ff78-4539-aaa9-349545b2a029">
-      <ID>Carrier Id</ID>
-      <Name>Carrier Id</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="dcda2809-2eff-40a2-a894-2979c6552a18">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="86503e62-7c76-4547-ac94-4d607f518b57">
-            <TableID>dbo_transports</TableID>
-            <ColumnID>carrier_id</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -260,21 +237,6 @@
           <Name>Название компании перевозчика</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e1d42824-1b39-4203-946f-521278e23d5d">
-      <ID>Transport Id</ID>
-      <Name>Transport Id</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="575102ea-0d68-4ac7-aa78-ec743a74beec">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80ed6942-84ff-48c0-a91e-78659e83a2d4">
-            <TableID>dbo_routes</TableID>
-            <ColumnID>transport_id</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

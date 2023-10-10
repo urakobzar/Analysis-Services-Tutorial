@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b542f978-1e88-4f57-b7bc-47bd50197663" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9de2a788-7a42-4d3d-86a3-e99488f57954" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Пункты</ID>
   <Name>Пункты</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4684" scrolltop="-6125" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12409" y="15822" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4684" scrolltop="-6125" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12409" y="15822" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Пункты" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Пункты" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
             </control>
@@ -73,7 +73,6 @@
             <Shape Id="Id" Expanded="false">
               <Attributes>
                 <Attribute Id="Id" />
-                <Attribute Id="Name" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -102,78 +101,58 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="59fbc24b-18d8-478f-ad74-8d0ef6247738">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5079a13a-8141-45f0-a9c3-436b52e570e8">
     <DataSourceViewID>International Transport</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="f52a9cb6-738f-48b2-90b5-e9769d440242">
+  <ErrorConfiguration dwd:design-time-name="7cc05975-ad07-4e7a-95f9-ef2e378d6366">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="07182055-f6bf-433c-a7cb-4ce1f8288f59">
+    <Attribute dwd:design-time-name="03c11584-05c7-46f8-86dd-035b4a2c7ce6">
       <ID>Id</ID>
-      <Name>Имя пункта</Name>
+      <Name>Название пункта</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3797c7f3-1dcb-42ea-a98e-68877dbfd9dd">
+        <KeyColumn dwd:design-time-name="92bd95a8-9d68-4125-9efc-bd3442fb4f33">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5376d45c-7af6-422a-8d21-fdc5bc75a295">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c20d5ad1-3a02-488b-a662-811001ebf810">
             <TableID>dbo_points</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="f8372db8-3b3f-4073-995c-f3a210a24203">
+      <NameColumn dwd:design-time-name="60199081-94c2-4653-afa2-061abda6bea0">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="99c9a9c3-aa3b-4ec7-aecc-e76ad82202ab">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="eefd5265-8832-46d5-af23-8934bfdea878">
           <TableID>dbo_points</TableID>
           <ColumnID>name</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="72676e92-9fa0-4c0d-a986-31ca1b4bfd0d">
-          <AttributeID>Name</AttributeID>
-          <Name>Name_</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bb2652f7-9909-4e92-a026-188c51bca231">
+        <AttributeRelationship dwd:design-time-name="0a5222fc-ed15-48c9-ab89-d80a97e5b058">
           <AttributeID>Type</AttributeID>
-          <Name>Type</Name>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Тип пункта</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="57f18cdb-72d5-4051-bc21-07a3157c0886">
-      <ID>Name</ID>
-      <Name>Name</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="9d2c73bf-b33b-4673-9e52-f7e91626cb87">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4daa61c-c4c9-4ca4-a1e6-c609d6d5770e">
-            <TableID>dbo_points</TableID>
-            <ColumnID>name</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="661587d5-6f1a-4f5d-96a4-ae6907638742">
+    <Attribute dwd:design-time-name="d06488dc-ee20-4101-8249-406e34aeeb84">
       <ID>Country</ID>
-      <Name>Country</Name>
+      <Name>Страна</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2fd852e2-a0e4-4243-9511-d822f3b56710">
+        <KeyColumn dwd:design-time-name="ace02843-d678-494b-b206-ebd896840fcd">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a57198ed-8f35-4c97-9032-6320dabf9327">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7b3e085e-f4dd-456c-9969-bb4e25917c7b">
             <TableID>dbo_points</TableID>
             <ColumnID>country</ColumnID>
           </Source>
@@ -183,80 +162,80 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2c8d325b-8f69-417f-ac8c-b97fffed7dde">
+    <Attribute dwd:design-time-name="b756cebd-ce35-4ed2-8247-5c30dd617dba">
       <ID>City</ID>
-      <Name>City</Name>
+      <Name>Город</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="46f02241-e2f0-4084-b2e3-04ca11fa5fd1">
+        <KeyColumn dwd:design-time-name="711f5026-97f3-422c-8458-29149d7a56f4">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b02b79e-5ccd-4547-b69f-9a95086a70cb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32ff4046-36c1-47a7-906a-5ce0bad821be">
             <TableID>dbo_points</TableID>
             <ColumnID>city</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="088d6ac6-e242-40fb-b67d-98389441a18f">
+        <KeyColumn dwd:design-time-name="2528e527-8aed-4654-8905-4d751a8bf81e">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="17c5a376-759c-4ac9-a531-83cbeb400ed7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c38ae62-4365-4690-a666-80d6d2e35b51">
             <TableID>dbo_points</TableID>
             <ColumnID>country</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="3737768b-f7d3-4b07-ae39-781a91c48e86">
+      <NameColumn dwd:design-time-name="50673b2d-e9aa-49da-9d95-5d6ec8e42aa6">
         <DataType>WChar</DataType>
         <DataSize>40</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a778747b-ec5b-4566-bf71-008f4731ed6e">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="80d7181f-b86a-4b9d-9bc3-e1aea179320c">
           <TableID>dbo_points</TableID>
           <ColumnID>city</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="994153bd-f144-444d-a6c1-a9ee53472f2e">
+        <AttributeRelationship dwd:design-time-name="566b786b-4996-4b39-b061-67330420dec3">
           <AttributeID>Country</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Country</Name>
+          <Name>Страна</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2e8b0865-b46b-4cc4-9c8a-9df1d0c3347a">
+    <Attribute dwd:design-time-name="7bbe25ec-209e-42c1-8690-d9139d368f26">
       <ID>Type</ID>
-      <Name>Type</Name>
+      <Name>Тип пункта</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="fe4b1af5-d50c-4397-96eb-4f785c44f9b1">
+        <KeyColumn dwd:design-time-name="9acad7dc-6b33-4336-b279-ae0a7d888b3b">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="94e3143f-b3bf-458e-9f53-e6c096d4b8ef">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01dee023-cbc2-49ec-8dcf-f29c18c24fe5">
             <TableID>dbo_points</TableID>
             <ColumnID>type</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="5afd3629-591c-4336-acec-2da9ac49ce6c">
+        <KeyColumn dwd:design-time-name="76998533-f4ba-40c4-b3bf-48a46060706f">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="39cd14c8-09f5-4401-abe0-dd7a9ee88657">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fbf76eb9-da5b-432d-ba18-a945848843f5">
             <TableID>dbo_points</TableID>
             <ColumnID>city</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="1d2c55f1-0a30-4d2f-a1b1-5cde062562c0">
+      <NameColumn dwd:design-time-name="9a1bf41e-9ceb-4f54-83ce-1fc7b79d7d82">
         <DataType>WChar</DataType>
         <DataSize>40</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a969b466-9d22-44f3-81ab-2c151e40fbe7">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7debe208-dadc-47bc-b9c8-29e3d7735c55">
           <TableID>dbo_points</TableID>
           <ColumnID>type</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5b92310f-0c03-4697-a63c-a0fd689f2a93">
+        <AttributeRelationship dwd:design-time-name="7baccd8d-def4-4fbe-bc9d-ab066db579cb">
           <AttributeID>City</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>City</Name>
+          <Name>Город</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
@@ -264,28 +243,28 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="b25f5714-3c5f-4037-9e06-239986fa9993">
+    <Hierarchy dwd:design-time-name="23a88b76-2120-4554-a39a-5224bcefdbde">
       <ID>Иерархия</ID>
-      <Name>Иерархия</Name>
+      <Name>География пункта</Name>
       <Levels>
-        <Level dwd:design-time-name="a8412d99-190e-4588-b072-328e38453808">
-          <ID>Country</ID>
-          <Name>Country</Name>
+        <Level dwd:design-time-name="266b132a-ba37-452f-8980-66fe913ddc1c">
+          <ID>Страна</ID>
+          <Name>Страна</Name>
           <SourceAttributeID>Country</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="c52f4c33-62e3-4ca1-8e32-c92fb008af34">
-          <ID>City</ID>
-          <Name>City</Name>
+        <Level dwd:design-time-name="7aa30be6-0e95-4dff-8dcd-632a61b3bd15">
+          <ID>Город</ID>
+          <Name>Город</Name>
           <SourceAttributeID>City</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="0e920e2d-6277-4fe1-921e-a50682f7d7b8">
-          <ID>Type</ID>
-          <Name>Type</Name>
+        <Level dwd:design-time-name="ea57cf40-2f06-4d86-8294-9cb84d711aab">
+          <ID>Тип пункта</ID>
+          <Name>Тип пункта</Name>
           <SourceAttributeID>Type</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="cbacadc7-5aab-4d41-95b5-972cf77cb778">
-          <ID>Имя пункта</ID>
-          <Name>Имя пункта</Name>
+        <Level dwd:design-time-name="f01a77a7-0d0b-4a22-a786-922215fed43c">
+          <ID>Название пункта</ID>
+          <Name>Название пункта</Name>
           <SourceAttributeID>Id</SourceAttributeID>
         </Level>
       </Levels>

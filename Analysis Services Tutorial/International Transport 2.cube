@@ -168,14 +168,8 @@
         <Attribute dwd:design-time-name="d80deef1-6eae-4754-9d94-1a03ff1109e9">
           <AttributeID>Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="dd0158b4-7255-40ce-b96f-6ef0fa7a4426">
-          <AttributeID>Carrier Id</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="f0eddd09-c5e3-4eb3-90f9-14e491e617da">
           <AttributeID>Id 1</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="d324de0a-adf7-4945-9de0-0697db04e435">
-          <AttributeID>Transport Id</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="bc4507ef-2af4-4333-9bb1-a52c88af716f">
           <AttributeID>Name</AttributeID>
