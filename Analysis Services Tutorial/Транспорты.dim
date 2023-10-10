@@ -141,7 +141,7 @@
   <Attributes>
     <Attribute dwd:design-time-name="b557eeec-0f7c-435b-b981-da093c4ea556">
       <ID>Id</ID>
-      <Name>Название</Name>
+      <Name>Название транспорта</Name>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="d2515797-dbb4-402b-9f36-a8c82a469d5b">
