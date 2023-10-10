@@ -180,22 +180,6 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="549bc06d-3ce2-4ad1-be47-2c1bfa9e36b9">
-      <ID>Маршруты</ID>
-      <Name>Маршруты</Name>
-      <DimensionID>Маршруты</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="f7150e2e-1cfa-4e8c-8f13-d72c7122a726">
-          <AttributeID>Id</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="2b9ec50f-2e94-47e4-8479-a3e12d5972b2">
-          <AttributeID>Name</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="ce53163a-61ed-4cf4-aab0-c25f89c6ce49">
-          <AttributeID>Carrier Id</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
     <Dimension dwd:design-time-name="11980fa0-ff4d-4ac4-9251-29a2606ba309">
       <ID>Point Id From</ID>
       <Name>Point Id From</Name>
@@ -309,24 +293,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="d5e1faf1-3354-4f90-a515-a04af579ffc3">
-          <CubeDimensionID>Маршруты</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="b6637bcc-f172-41af-a876-cd8d664f0a77">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="e3b56c5e-dd04-462e-861e-4df7f5dbb503">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0d53ad72-d151-497b-b581-2203f7502054">
-                    <TableID>dbo_routes</TableID>
-                    <ColumnID>id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3ca6f6bd-fa42-4c03-a805-0ee49c0ed851">
           <CubeDimensionID>Транспорты</CubeDimensionID>
           <Attributes>

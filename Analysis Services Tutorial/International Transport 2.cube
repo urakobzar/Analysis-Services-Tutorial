@@ -174,6 +174,27 @@
         <Attribute dwd:design-time-name="c0a7741b-451a-4626-b39a-fe8bc7caa3dc">
           <AttributeID>Carrier Id</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="24ce4bc9-8c9e-43c8-b38e-246e67435cf2">
+          <AttributeID>Point Id From</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="787897b3-aefe-4458-8f82-b72d0a750667">
+          <AttributeID>Point Id To</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="298ab969-ab3b-4276-9716-9ef8ceddc558">
+          <AttributeID>Id 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e5d8345-5f2c-487f-8a72-eaa2ddd01842">
+          <AttributeID>Datetime Depature</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="470b9930-1a0b-4ddd-b383-c41b069ffd39">
+          <AttributeID>Datetime Arrival</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa31f002-f33e-4bfa-90ad-c19923d64701">
+          <AttributeID>Passengers Amount</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c35cd84-b2f1-44fe-918d-fb26fe9a9a71">
+          <AttributeID>Transport Id</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="0d890719-f988-46e6-85fa-47e9a74666ab">
