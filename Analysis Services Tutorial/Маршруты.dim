@@ -225,10 +225,10 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="a07f6b3d-566e-46b5-b84a-78972174024d">
+        <AttributeRelationship dwd:design-time-name="e0fab646-1482-4609-8b49-419c2dadf2d9">
           <AttributeID>Name</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
-          <Name>Название компании перевозчика</Name>
+          <Name>Название перевозчика</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
