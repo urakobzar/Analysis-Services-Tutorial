@@ -18,32 +18,32 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>International Transport 2.cube</Name>
-      <FullPath>International Transport 2.cube</FullPath>
+      <Name>EmergencyAmount.cube</Name>
+      <FullPath>EmergencyAmount.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>International Transport 2.partitions</Name>
-          <FullPath>International Transport 2.partitions</FullPath>
+          <Name>EmergencyAmount.partitions</Name>
+          <FullPath>EmergencyAmount.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>International Transport.cube</Name>
-      <FullPath>International Transport.cube</FullPath>
+      <Name>TicketProfit.cube</Name>
+      <FullPath>TicketProfit.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>International Transport.partitions</Name>
-          <FullPath>International Transport.partitions</FullPath>
+          <Name>TicketProfit.partitions</Name>
+          <FullPath>TicketProfit.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>International Transport 3.cube</Name>
-      <FullPath>International Transport 3.cube</FullPath>
+      <Name>RouteAmount.cube</Name>
+      <FullPath>RouteAmount.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>International Transport 3.partitions</Name>
-          <FullPath>International Transport 3.partitions</FullPath>
+          <Name>RouteAmount.partitions</Name>
+          <FullPath>RouteAmount.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
