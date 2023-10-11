@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="93a47525-96df-4ebf-ac84-e2ad4ff0c2e8" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8560cde5-d88e-46c4-ad56-ef3fa162c6c7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>International Transport</ID>
   <Name>International Transport</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -140,52 +140,57 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="54822880-78ce-45b6-8faf-8cfa4ca87b6b">
+    <Dimension dwd:design-time-name="6a24da1f-b113-4a6a-8aee-4524bee810c9">
       <ID>Пассажиры</ID>
       <Name>Пассажиры</Name>
       <DimensionID>Пассажиры</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6f02b7af-dc1f-44de-ab5f-7081046baa1e">
+        <Attribute dwd:design-time-name="58efdb64-ba3f-4b58-a7d5-0f4cf8a0227c">
           <AttributeID>Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2777c022-9f61-4dde-994d-67aaf1e59548">
+        <Attribute dwd:design-time-name="61f93806-19b0-4f4f-b1e0-a0b3ff40ebec">
           <AttributeID>Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7bf0425e-dace-4689-aea6-2e5c58401074">
+        <Attribute dwd:design-time-name="8032ab0c-d838-4823-8dd9-6f9184344bbb">
           <AttributeID>Middlename</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c896c736-79af-41d8-bc00-87fe06f47754">
+        <Attribute dwd:design-time-name="cb75c6e7-0adf-4327-9242-cc7831f67442">
           <AttributeID>Surname</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="41967741-54af-4e64-86f5-24721e184b1f">
+        <Attribute dwd:design-time-name="ede3b44e-c3da-4780-82fc-c727c979c796">
           <AttributeID>Sex</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="fb22e3b2-7e87-45dd-abb2-1aa9c637463e">
+          <HierarchyID>Иерархия</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="430aefa5-775f-4e6a-ba44-84357ce3e26e">
+    <Dimension dwd:design-time-name="127f5707-fde4-45c0-80d5-02913538bdaf">
       <ID>Маршруты</ID>
       <Name>Маршруты</Name>
       <DimensionID>Маршруты</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="5cad18c1-539e-4847-b66b-04f4cc74223f">
+        <Attribute dwd:design-time-name="555147c7-33cb-4912-bec3-04fb48890893">
           <AttributeID>Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7defc429-9b84-4e5e-bcaf-864964167b3b">
+        <Attribute dwd:design-time-name="5badc7c1-4392-4121-995e-d9a01db04ae0">
           <AttributeID>Id 1</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e098b148-2a04-4913-9448-577f3209b0a0">
+        <Attribute dwd:design-time-name="607ce996-8076-4254-a676-ff85abe1015d">
           <AttributeID>Name</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="69855563-375b-451e-ba76-cde12055a5a9">
+        <Hierarchy dwd:design-time-name="7c8f9dc7-f566-435a-901d-33e0fa425e03">
           <HierarchyID>Иерархия</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="0443821b-f5f3-4f4c-b374-3982e7afcce7">
+    <MeasureGroup dwd:design-time-name="34778cef-825c-4587-87b0-d1afb3a3dcf8">
       <ID>Лист Регистрации</ID>
       <Name>Лист Регистрации</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -193,25 +198,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="b0899fed-030e-458d-bfc6-6fddcae16b5a">
+        <Measure dwd:design-time-name="e8a53ed2-c559-4bbc-b966-edc4c84e0fb6">
           <ID>Ticket Cost</ID>
           <Name>Стоимость билета</Name>
-          <Source dwd:design-time-name="c94cdac9-e934-4856-9e31-6d10fd25e197">
+          <Source dwd:design-time-name="0943a954-e5e8-416d-b6fb-b4f5c0cb58e4">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8de025b1-2cbe-4bde-ab3a-e78658e919d2">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f7a2b7f5-99a7-44d0-9e34-9c7536f9ad36">
               <TableID>dbo_registration_list</TableID>
               <ColumnID>ticket_cost</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="01476a94-55eb-434d-bb37-16c31952de1a">
+        <Measure dwd:design-time-name="fca6164b-3c4d-42a4-9218-33a88cb9d61e">
           <ID>Число Лист Регистрации</ID>
           <Name>Число Лист Регистрации</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="efa76e43-2698-4a19-b0e2-e39b3bc1d9f3">
+          <Source dwd:design-time-name="9cf5fd4a-1ac3-4309-a902-fce630ae9f1f">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="017df116-7b13-4c7c-a5bf-844ab9b2cb97">
+            <Source xsi:type="RowBinding" dwd:design-time-name="cdd6adc8-b080-42a6-bd2e-05042ab73b78">
               <TableID>dbo_registration_list</TableID>
             </Source>
           </Source>
@@ -220,16 +225,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52e97db7-9854-4ecc-8805-52b0c79ce40f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8343995-0c10-49f4-a51c-ab84cb0d3ced">
           <CubeDimensionID>Пассажиры</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="65d1c52f-f736-465f-8c1d-5317c5e9911c">
+            <Attribute dwd:design-time-name="7c1cbfe9-fc84-49ac-869c-026914a32aaa">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="06e6cf9a-3338-4518-8e43-67525890bc4d">
+                <KeyColumn dwd:design-time-name="9a0db579-5980-4ebc-b120-a07ebcbc95d7">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1a1501e7-fc10-49fa-af20-b773ebe36848">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4dc52659-bc2d-40da-8c70-d94f16d67c20">
                     <TableID>dbo_registration_list</TableID>
                     <ColumnID>passenger_id</ColumnID>
                   </Source>
@@ -239,16 +244,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b69a3ae0-a6aa-4b2e-be66-56cfeedf93d1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="84b6aded-9c52-4868-9ca1-14ff54242a46">
           <CubeDimensionID>Маршруты</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5cbb5c4c-09e9-45e7-817b-3ff45c129f1e">
+            <Attribute dwd:design-time-name="7f298180-d036-4e0a-b34f-11e44234417c">
               <AttributeID>Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="64ae774e-f0d6-42fb-ba1b-693e8b6eedde">
+                <KeyColumn dwd:design-time-name="879f71cf-ce21-438b-a3b5-5cfc32e8a098">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96371fdf-8bb5-4d63-bfcc-969601298112">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9258ccfe-fce5-4a64-9b81-012afb2aa228">
                     <TableID>dbo_registration_list</TableID>
                     <ColumnID>route_id</ColumnID>
                   </Source>
@@ -262,7 +267,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="3369f054-00c6-4f38-ab79-f4c4074c71d3">
+  <Source dwd:design-time-name="6e2c376f-2df5-4f09-8d52-9e379d57e879">
     <DataSourceViewID>International Transport</DataSourceViewID>
   </Source>
 </Cube>
