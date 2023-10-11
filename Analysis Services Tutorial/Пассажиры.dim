@@ -224,7 +224,7 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="15281dfd-d5c5-4efa-a641-72dd251104e1">
       <ID>Иерархия</ID>
-      <Name>Иерархия</Name>
+      <Name>Половая принадлежность</Name>
       <Levels>
         <Level dwd:design-time-name="581c52b2-9293-4654-9823-271cb53e9c4b">
           <ID>Пол</ID>
