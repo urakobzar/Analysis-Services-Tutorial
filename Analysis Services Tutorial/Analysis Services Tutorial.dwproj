@@ -8,94 +8,68 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Adventure Works Tutorial.cube</Name>
-      <FullPath>Adventure Works Tutorial.cube</FullPath>
+      <Name>Analysis Services Tutorial.cube</Name>
+      <FullPath>Analysis Services Tutorial.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Adventure Works Tutorial.partitions</Name>
-          <FullPath>Adventure Works Tutorial.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>EmergencyAmount.cube</Name>
-      <FullPath>EmergencyAmount.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>EmergencyAmount.partitions</Name>
-          <FullPath>EmergencyAmount.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>TicketProfit.cube</Name>
-      <FullPath>TicketProfit.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>TicketProfit.partitions</Name>
-          <FullPath>TicketProfit.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>RouteAmount.cube</Name>
-      <FullPath>RouteAmount.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>RouteAmount.partitions</Name>
-          <FullPath>RouteAmount.partitions</FullPath>
+          <Name>Analysis Services Tutorial.partitions</Name>
+          <FullPath>Analysis Services Tutorial.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Дата.dim</Name>
-      <FullPath>Дата.dim</FullPath>
+      <Name>Product.dim</Name>
+      <FullPath>Product.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Клиент.dim</Name>
-      <FullPath>Клиент.dim</FullPath>
+      <Name>Customer.dim</Name>
+      <FullPath>Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Продукт.dim</Name>
-      <FullPath>Продукт.dim</FullPath>
+      <Name>Reseller.dim</Name>
+      <FullPath>Reseller.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Пассажиры.dim</Name>
-      <FullPath>Пассажиры.dim</FullPath>
+      <Name>Geography.dim</Name>
+      <FullPath>Geography.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Пункты.dim</Name>
-      <FullPath>Пункты.dim</FullPath>
+      <Name>Sales Territory.dim</Name>
+      <FullPath>Sales Territory.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Маршруты.dim</Name>
-      <FullPath>Маршруты.dim</FullPath>
+      <Name>Employee.dim</Name>
+      <FullPath>Employee.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Транспорты.dim</Name>
-      <FullPath>Транспорты.dim</FullPath>
+      <Name>Promotion.dim</Name>
+      <FullPath>Promotion.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Подробности заказа через Интернет.dim</Name>
+      <FullPath>Подробности заказа через Интернет.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Sales Reason.dim</Name>
+      <FullPath>Sales Reason.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>Adventure Works DW2008.ds</Name>
-      <FullPath>Adventure Works DW2008.ds</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>International Transport.ds</Name>
-      <FullPath>International Transport.ds</FullPath>
+      <Name>Adventure Works DW 2012.ds</Name>
+      <FullPath>Adventure Works DW 2012.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Adventure Works DW.dsv</Name>
-      <FullPath>Adventure Works DW.dsv</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>International Transport.dsv</Name>
-      <FullPath>International Transport.dsv</FullPath>
+      <Name>Adventure Works DW 2012.dsv</Name>
+      <FullPath>Adventure Works DW 2012.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -104,25 +78,15 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>Adventure Works DW2008</Id>
-            <Name>Adventure Works DW2008</Name>
+            <Id>Adventure Works DW</Id>
+            <Name>Adventure Works DW</Name>
             <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2008R2</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>International Transport</Id>
-            <Name>International Transport</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=InternationalTransport</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>Adventure Works DW2008</Id>
-            <Name>Adventure Works DW2008</Name>
-            <Value xsi:type="xsd:int">0</Value>
-          </ConfigurationSetting>
-          <ConfigurationSetting>
-            <Id>International Transport</Id>
-            <Name>International Transport</Name>
+            <Id>Adventure Works DW</Id>
+            <Name>Adventure Works DW</Name>
             <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
