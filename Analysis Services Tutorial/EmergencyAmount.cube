@@ -233,6 +233,9 @@
         <Attribute dwd:design-time-name="2cfded4d-69d3-4ea5-9c61-2ac18d704345">
           <AttributeID>Point Id To</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="b4a6526c-a313-4bae-93db-9cc3ac884665">
+          <AttributeID>Passengers Amount</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="16fc2e6f-94c8-41e1-9bdf-a4133ca9dbaf">
@@ -287,6 +290,19 @@
           <HierarchyID>Иерархия</HierarchyID>
         </Hierarchy>
       </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="e1a92d79-2908-40e3-bcb4-31258375be87">
+      <ID>Чрезвычайные Ситуации</ID>
+      <Name>Чрезвычайные Ситуации</Name>
+      <DimensionID>Чрезвычайные Ситуации</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e50b79f7-2ca8-430b-bade-27d6a7ce83be">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb15ecdb-33a3-4537-9fac-dc4a36e8968a">
+          <AttributeID>Cause</AttributeID>
+        </Attribute>
+      </Attributes>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
@@ -358,6 +374,24 @@
           <IntermediateGranularityAttributeID>Point Id To</IntermediateGranularityAttributeID>
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+        </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="62cccff4-f856-43ef-8089-c2ddf12cdcfa">
+          <CubeDimensionID>Чрезвычайные Ситуации</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f3db6661-cd8a-4b4a-a246-f09fff348b93">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c1c7d26b-a4b1-4abf-aaa4-b96a7425f2f0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1badf514-1b8b-4d2e-af7b-f8f96638a965">
+                    <TableID>dbo_emergencies</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
         </Dimension>
       </Dimensions>
       <Partitions />

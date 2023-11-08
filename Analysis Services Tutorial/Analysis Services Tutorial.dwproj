@@ -77,6 +77,10 @@
       <Name>Транспорты.dim</Name>
       <FullPath>Транспорты.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Чрезвычайные Ситуации.dim</Name>
+      <FullPath>Чрезвычайные Ситуации.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
