@@ -139,6 +139,8 @@
             <Shape Id="Id" Expanded="false">
               <Attributes>
                 <Attribute Id="Id" />
+                <Attribute Id="Point Id To" />
+                <Attribute Id="Point Id From" />
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
@@ -206,6 +208,10 @@
         <AttributeRelationship dwd:design-time-name="e389479c-4355-4326-9283-d9daffebc8ae">
           <AttributeID>Point Id To</AttributeID>
           <Name>Код пункта назначения</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="08405603-7f32-4d1b-b1fd-9cb7b4bef687">
+          <AttributeID>Passengers Amount</AttributeID>
+          <Name>Число пассажиров маршрута</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -287,6 +293,21 @@
         </KeyColumn>
       </KeyColumns>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cac174e1-3ba9-44a2-bd86-b70f803b2f9c">
+      <ID>Passengers Amount</ID>
+      <Name>Число пассажиров маршрута</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="00f1b72b-afbf-48b0-92ac-497253ebc158">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ec7d3b0-5a74-4edc-84af-3f69678a1f68">
+            <TableID>dbo_routes</TableID>
+            <ColumnID>passengers_amount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

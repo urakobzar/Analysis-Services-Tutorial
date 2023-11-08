@@ -115,7 +115,7 @@
           <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3584" top="12743" logicalid="15" controlid="9" masterid="0" hint1="0" hint2="0" width="3147" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
               </ddsxmlobj>
             </control>
             <layoutobject>
@@ -135,7 +135,7 @@
           <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3584" top="12193" logicalid="16" controlid="10" masterid="0" hint1="0" hint2="0" width="3147" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
               </ddsxmlobj>
             </control>
             <layoutobject>
@@ -237,6 +237,9 @@
         </Attribute>
         <Attribute dwd:design-time-name="1868c3c1-7244-4f18-b891-1ccf5d96e1a8">
           <AttributeID>Point Id To</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2a8d528-e37a-4a3b-b978-6ae511ff936e">
+          <AttributeID>Passengers Amount</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
