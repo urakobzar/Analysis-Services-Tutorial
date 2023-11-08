@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="91216ce1-cd0b-43a7-b073-7d08f6546d86" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="20ed45c3-fd17-4e3c-9f59-51e2240ae752" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Маршруты</ID>
   <Name>Маршруты</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1319" scrolltop="-5914" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12409" y="15822" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="12" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1319" scrolltop="-5914" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12409" y="16589" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -161,71 +161,79 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4870aaae-5f5a-4a18-89f4-3b17ce8722d9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aba6a5ab-a179-4d03-88c6-a524331ed8b5">
     <DataSourceViewID>International Transport</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="df8a7f4e-87cb-43b1-b328-bc0ba3393e2c">
+  <ErrorConfiguration dwd:design-time-name="7444af72-8f5f-40f2-ae19-42051b312915">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2f05054a-a213-455f-bff6-617ac4288571">
+    <Attribute dwd:design-time-name="6766ca8a-9343-4ccc-ab2e-9c4c2d48b000">
       <ID>Id</ID>
       <Name>Номер маршрута</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="159cace3-0f92-4f5a-96dd-0038805e0807">
+        <KeyColumn dwd:design-time-name="ea14751c-3bb2-4107-b5d1-c106965d5ad7">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e67e508-baac-47c4-b020-d4b539815a9e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b26f9158-33f7-4219-8b6f-00792be640b8">
             <TableID>dbo_routes</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="b183f8d2-cd64-4c21-9084-e58a6b511768">
+      <NameColumn dwd:design-time-name="d9aeb500-a261-47db-9a8f-30b8e2487080">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="d2dddb25-3bd0-4f51-b6fa-7327f8d23c70">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8ebcd3fd-f868-4226-acaf-7f379f861dbb">
           <TableID>dbo_routes</TableID>
           <ColumnID>Номер_x0020_маршрута</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="67671636-36ee-40c0-8e6b-3877550d65e7">
+        <AttributeRelationship dwd:design-time-name="6c58a8e4-e037-49a3-840d-42b21afcb9c9">
           <AttributeID>Id 1</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Название транспорта</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="10d31171-3490-4477-8f51-6f5abe141731">
+          <AttributeID>Point Id From</AttributeID>
+          <Name>Код пункта отправления</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e389479c-4355-4326-9283-d9daffebc8ae">
+          <AttributeID>Point Id To</AttributeID>
+          <Name>Код пункта назначения</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0f377322-a070-4815-83e5-f1fcd847a644">
+    <Attribute dwd:design-time-name="2deedaf0-91fd-4745-9433-4a4455de54e9">
       <ID>Id 1</ID>
       <Name>Название транспорта</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3b57fd45-b0cb-4adc-965b-0019efecdbf7">
+        <KeyColumn dwd:design-time-name="3f4ab35b-8a65-40d7-922f-0ad22a30adad">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4af3cd34-32ee-4336-9c7a-b36a17e57fb1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb5b2337-8b10-41e9-9bf4-c1bb51b11a5d">
             <TableID>dbo_transports</TableID>
             <ColumnID>id</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="9b3da834-04ef-404b-8df4-7bfbf7aeabac">
+      <NameColumn dwd:design-time-name="ef8951bb-29ce-4914-bbef-8554475ca880">
         <DataType>WChar</DataType>
         <DataSize>201</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="56de841a-3f18-4a99-96c1-a3973bf9f226">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="10af9fc4-8e15-4804-8045-47e0a5664a1d">
           <TableID>dbo_transports</TableID>
           <ColumnID>Полное_x0020_название</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e0fab646-1482-4609-8b49-419c2dadf2d9">
+        <AttributeRelationship dwd:design-time-name="e7463351-04f3-4142-a09e-9b0b0be42ce7">
           <AttributeID>Name</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Название перевозчика</Name>
@@ -234,14 +242,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ad10a227-515b-4b78-b41e-ab2fa40bef6f">
+    <Attribute dwd:design-time-name="1c2e9883-d145-45c1-9234-7ae879774331">
       <ID>Name</ID>
       <Name>Название перевозчика</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="94284617-df32-4ee8-823e-a591be2c9513">
+        <KeyColumn dwd:design-time-name="b1219037-e07c-41a9-a59a-4bf081a7f74e">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e1450e51-7d5d-4b3b-a111-f1fee54b8e70">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05db0608-2d75-4646-bc9f-92cdea494837">
             <TableID>dbo_carriers</TableID>
             <ColumnID>name</ColumnID>
           </Source>
@@ -250,23 +258,55 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
+    <Attribute dwd:design-time-name="bbcba522-fc34-488a-9175-23bb2a36f85e">
+      <ID>Point Id From</ID>
+      <Name>Код пункта отправления</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd703c3a-531c-4e5b-8f7a-90b219858440">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="efe47b8e-b4d1-4570-89c5-fac7b135c05b">
+            <TableID>dbo_routes</TableID>
+            <ColumnID>point_id_from</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a27dd8e1-a0cf-4284-bede-13b26ff063db">
+      <ID>Point Id To</ID>
+      <Name>Код пункта назначения</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5044fda5-922e-4e29-8b51-41f73259c376">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3deb51f4-f746-4e66-bcb0-b4cd50f11bcd">
+            <TableID>dbo_routes</TableID>
+            <ColumnID>point_id_to</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="71453fa5-1883-4d7a-b576-5ee2b32a66ad">
+    <Hierarchy dwd:design-time-name="97f110a3-213f-4283-8373-12b72a19c8e8">
       <ID>Иерархия</ID>
       <Name>Принадлежность маршрута</Name>
       <Levels>
-        <Level dwd:design-time-name="8f5de14a-4f7a-4445-b017-cd028a08de52">
+        <Level dwd:design-time-name="212d697f-8b8e-4d83-87ed-df992c4aa907">
           <ID>Название перевозчика</ID>
           <Name>Название перевозчика</Name>
           <SourceAttributeID>Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="3716a8e3-520e-41b0-8dc6-679c0b7cc4e1">
+        <Level dwd:design-time-name="16afa288-462e-4710-af6a-c5dfd56c5b6c">
           <ID>Название транспорта</ID>
           <Name>Название транспорта</Name>
           <SourceAttributeID>Id 1</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="23e37730-7c56-4b71-9f51-2f47d5d21ba9">
+        <Level dwd:design-time-name="779a0814-8526-41da-9330-352b3220163f">
           <ID>Номер маршрута</ID>
           <Name>Номер маршрута</Name>
           <SourceAttributeID>Id</SourceAttributeID>
